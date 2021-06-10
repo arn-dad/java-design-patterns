@@ -22,7 +22,7 @@ public class BrowserHistory {
         return new ListIterator(this);
     }
 
-    public class ListIterator implements Iterator {
+        public class ListIterator implements Iterator {
         private BrowserHistory history;
         private int index;
 

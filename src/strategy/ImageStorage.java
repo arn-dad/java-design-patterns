@@ -1,7 +1,5 @@
 package strategy;
 
-import org.jetbrains.annotations.NotNull;
-
 // Context
 public class ImageStorage {
     private Compressor compressor;
@@ -14,7 +12,7 @@ public class ImageStorage {
         compressor.compress(fileName);
     }
     // pattern not includes method overload
-    public void store(String fileName, @NotNull Compressor compressor) {
+    public void store(String fileName, Compressor compressor) {
         compressor.compress(fileName);
     }
 }
